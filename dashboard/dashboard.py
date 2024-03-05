@@ -5,8 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data
-day_df = pd.read_csv("D:/Semester 6/Bangkit/Dicoding/Analisis_Data_Nadya/data/day.csv")
-hour_df = pd.read_csv("D:/Semester 6/Bangkit/Dicoding/Analisis_Data_Nadya/data/hour.csv")
+day_df = pd.read_csv("data/day.csv")
+hour_df = pd.read_csv("data/hour.csv")
 
 
 # Define title and styling
