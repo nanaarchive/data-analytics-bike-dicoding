@@ -3,6 +3,8 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import streamlit_shadcn_ui as ui
+import base64
 
 # Load data
 day_df = pd.read_csv("data/day.csv")
@@ -15,7 +17,7 @@ st.write('<hr style="margin-bottom: 20px;">', unsafe_allow_html=True)
 
 # Sidebar
 st.sidebar.title("Bike Sharing Dashboard")
-selected_option = st.sidebar.selectbox("Pilih Musim", ["", "Data Visual"])
+selected_option = st.sidebar.selectbox("Pilih Tampilan", ["Tabel", "Data Visual"])
 
 # Load your CSV data
 hour_data = pd.read_csv("hour.csv")
