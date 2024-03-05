@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import base64
 
 # Load data
 day_df = pd.read_csv("D:/Semester 6/Bangkit/Dicoding/Analisis_Data_Nadya/data/day.csv")
